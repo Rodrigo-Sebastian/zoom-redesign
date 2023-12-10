@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zoom-redesign</title>
+  </head>
+  <body>
+       <!--HEADER-->
+       <header class="border-b-2 border-b-border-color sm:flex items-center justify-between px-10 p-5 lg:flex-col lg:p-0">
+        <!--top header col-->
+        <div class="sm:hidden lg:block lg:bg-font-color w-full p-2 px-72">
+          <ul class="text-secondary-color flex justify-end items-center gap-5">
+            <li><a class="hover:text-main-color" href="">Sök</a></li>
+            <li><a class="hover:text-main-color" href="">Support</a></li>
+            <li><a class="hover:text-main-color" href="">1.888.799.9666</a></li>
+            <li><a class="hover:text-main-color" href="">Begär en demo</a></li>
+            <li><a class="hover:text-main-color" href="">DELTA</a></li>
+            <li><a class="hover:text-main-color" href="">Värd</a></li>
+            <li><a class="hover:text-main-color" href="">Logga in</a></li>
+          </ul>
+        </div>
+        <!--bottom header col-->
+        <div class="flex justify-between items-center lg:w-full lg:px-72 p-5">
+          <div class="lg:flex items-center gap-5">
+            <h1 class="text-main-color text-4xl font-semibold">zoom</h1>
+          </div>
+          <div class="lg:flex gap-10">
+            <div class="lg:block md:hidden sm:hidden">
+              <nav>
+                <ul class="flex gap-8 text-link-color">
+                  <li><a class="hover:text-main-color" href="">Produkter</a></li>
+                  <li><a class="hover:text-main-color" href="">Lösningar</a></li>
+                  <li><a class="hover:text-main-color" href="">Resurser</a></li>
+                  <li><a class="hover:text-main-color" href="">Planer och priser</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="lg:block sm:hidden">
+              <a class="border-main-color border-2 rounded-full text-main-color px-5 py-2 font-medium tracking-normal hover:bg-main-color hover:text-secondary-color hover:border-secondary-color" href="">kontakta säljavdelningen</a>
+              <a class="border-main-color border-2 bg-main-color rounded-full px-5 py-2 text-secondary-color font-medium -tracking-wide hover:bg-secondary-color hover:text-main-color" href="">registrera dig gratis | Zoom</a>
+            </div>
+          </div>
+        </div>
+         <!--Hamburger btn-->
+         <div class="lg:hidden sm: flex flex-col gap-1">
+          <span class="h-1 w-8 bg-main-color"></span>
+          <span class="h-1 w-8 bg-main-color"></span>
+          <span class="h-1 w-8 bg-main-color"></span>
+        </div>
+      </header>
+      <!--MAIN SECTION-->
+      <section class="lg:flex justify-evenly lg:px-60">
+        <div class="flex flex-col mt-10 gap-10 px-10 lg:gap-20">
+          <a class="border-second-border border-2 bg-second-broder-link-color rounded-full flex items-center gap-2 max-w-sm text-xs p-1 lg:text-base lg:max-w-lg" href=""><span class="bg-alt-btn rounded-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+          </svg>
+          </span>zoom one: Dina favorit Zoom-lösningar allt i ett<span class="text-main-color">Läs mer</span></a>
+          <div class="flex flex-col gap-5 mb-10 lg:gap-10">
+            <h1 class="text-3xl font-bold lg:text-7xl lg:font-normal">En plattform för att <span class="text-main-color">komma i kontakt</span></h1>
+            <p class="text-sm lg:text-lg">Sammanför team, omforma arbetsplatser, engagera nya målgrupper och gläd dina kunder - allt på Zoom-plattformen du känner till och älskar.</p>
+            <div class="flex items-center gap-5">
+              <a class="bg-main-color text-secondary-color text-sm p-2 px-6 rounded-full lg:text-lg" href="">Planer och Priser</a>
+              <a class="text-main-color text-sm flex items-center lg:text-lg hover:text-link-color" href="">Registrera Dig, Det Är Gratis <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+              </span></a>
+            </div>
+          </div>
+        </div>
+        <div class="sm:h-80 flex flex-row-reverse justify-evenly bg-background-section lg:w-full">
+          <div class="mt-5 h-50 w-36 lg:h-full lg:w-72">
+            <img class="rounded-2xl" src="/img/slide3-1.jpg" alt="" srcset="">
+          </div>
+          <div class="h-36 w-48 lg:h-full lg:w-80">
+            <img class="rounded-2xl relative top-36 lg:top-72" src="/img/slide3-4.jpg" alt="" srcset="">
+          </div>
+        </div>
+      </section>
+      <!--SECOND SECTION-->
+      <div class="flex flex-col lg:flex-row w-full lg:h-60">
+        <div class="bg-main-color flex items-center justify-center lg:w-1/3 lg:justify-end">
+          <img class="py-5 px-10 w-96" src="/img/zoom-products.png" alt="">
+        </div>
+        <div class="flex flex-col justify-center items-center bg-font-color text-secondary-color pb-10 lg:w-2/3 lg:justify-evenly lg:items-start lg:pl-10 p-10">
+          <h1 class="text-xl font-semibold p-10 lg:p-0 lg:text-2xl">Flexibla lösningar för modernt teamsamarbete</h1>
+          <ul class="flex flex-col items-center justify-between text-sm gap-10 lg:flex-row lg:gap-3 lg:text-lg">
+            <li><a class="border-main-color bg-border-link-color border-2 rounded-full px-5 py-2" href="">Zoom One</a></li>
+            <li><a class="border-second-border bg-second-broder-link-color border-2 rounded-full px-5 py-2" href="">Zoom Spaces</a></li>
+            <li><a class="border-third-border bg-third-border-link-color border-2 rounded-full px-5 py-2" href="">Zoom Events</a></li>
+            <li><a class="border-forth-border bg-forth-border-link-color border-2 rounded-full px-5 py-2" href="">Zoom Contact Center</a></li>
+            <li><a class="border-fifth-border bg-fifth-blorder-link-color border-2 rounded-full px-5 py-2" href="">Zoom Developers</a></li>
+          </ul>
+        </div>
+      </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
